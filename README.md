@@ -2,7 +2,7 @@
 
 # lancement du conteneur Nginx 
 
-commande : `docker run -d -p 8080:80 p`.
+commande : `docker run -d -p 8080:80 p nginx`.
 
 `-d`: pour détacher le conteneur du processus principal de la console. 
  il va nous permettre de continuer à utilisr la console pendant que le conteneur tourne sur un autre proccess.
